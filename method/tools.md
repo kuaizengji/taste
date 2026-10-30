@@ -8,3 +8,13 @@
 - 什么时候用：做前端界面或交互原型，需要在浏览器里看屏幕、换设计系统、把 React 屏幕和说明放在一起时。
 - 什么时候不用：要的是 taste 的视觉判断（滚动、动效原则、VI、幻灯片、海报、视频）时，不要把它当成原则来源，也不要把它的品牌色和标当成 taste 的识别。
 - 怎么用：让 Agent 去读那个仓库并在本地跑，不要把代码抄进 taste。
+
+## Solid Glass
+
+- 名称：Solid Glass
+- 链接：https://github.com/deeplethe/solid-glass
+- 文档：https://deeplethe.github.io/solid-glass/docs
+- 是什么：盖在 shadcn/ui（Base UI）上的一层主题，外加一小套给「人看着代理干活」用的零件。不是独立组件库，不发 npm。安装：npx shadcn@latest add deeplethe/solid-glass/solid-glass
+- 什么时候用：已有 shadcn/ui + Base UI 的 Agent 界面或 AI 应用，需要这层烟玻璃皮，或需要会话、工具步、diff、提问这类代理零件时。
+- 什么时候不用：代码编辑器、IDE、C 端应用；也不要把它的品牌色或字标当成 taste 的识别。要的是 taste 自己的视觉判断时，不要把整份 CSS 抄进来。
+- 怎么用：让 Agent 用上面的 shadcn add 装进目标项目，不要把代码抄进 taste。
