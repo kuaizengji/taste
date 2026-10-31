@@ -18,3 +18,12 @@
 - 什么时候用：已有 shadcn/ui + Base UI 的 Agent 界面或 AI 应用，需要这层烟玻璃皮，或需要会话、工具步、diff、提问这类代理零件时。
 - 什么时候不用：代码编辑器、IDE、C 端应用；也不要把它的品牌色或字标当成 taste 的识别。要的是 taste 自己的视觉判断时，不要把整份 CSS 抄进来。
 - 怎么用：让 Agent 用上面的 shadcn add 装进目标项目，不要把代码抄进 taste。
+
+## SPT · 项目交互设计总 Skill
+
+- 名称：SPT · 项目交互设计总 Skill
+- 链接：https://github.com/aixinxino/spt-ui-interaction-skills
+- 是什么：交互选型 Skill，给编程 AI 按位置推荐组件名。
+- 什么时候用：非专业的人要为界面某一处选组件或动效时。
+- 什么时候不用：它没有高保真样子，不要把它当成组件库或原型。
+- 怎么用：读 ui/interaction-skill，不要安装、不要把产品改成效果演示页。
