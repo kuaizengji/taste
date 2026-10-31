@@ -112,4 +112,12 @@
 - 清单：[ui/prompt-sources/everettfish-effect-glossary.md](../ui/prompt-sources/everettfish-effect-glossary.md)
 - 什么时候不用：要执行已有门禁时，以那些文件为准。
 
+## 人人都是 UI 设计师（Refactoring UI 20 条）
+
+- 名称：人人都是 UI 设计师（Refactoring UI 20 条）
+- 链接：https://x.com/longhaiqwe123/status/2106216781174251724
+- 作者：龙海
+- 清单：[ui/prompt-sources/longhai-refactoring-ui/](../ui/prompt-sources/longhai-refactoring-ui/)
+
+
 

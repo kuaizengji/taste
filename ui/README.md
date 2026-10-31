@@ -28,6 +28,8 @@ Hallmark：[hallmark/SKILL.md](hallmark/SKILL.md)
 
 [prompt-sources/everettfish-effect-glossary.md](prompt-sources/everettfish-effect-glossary.md)
 
+[prompt-sources/longhai-refactoring-ui/](prompt-sources/longhai-refactoring-ui/)
+
 ## 链接 / 参考
 
 待收录。
