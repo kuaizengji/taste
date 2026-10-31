@@ -2,6 +2,10 @@
 
 交互选型：[interaction-skill/SKILL.md](interaction-skill/SKILL.md)
 
+B 端后台：[b-end-skill/SKILL.md](b-end-skill/SKILL.md)
+
+桌面 Agent UI：[desktop-agent-ui/SKILL.md](desktop-agent-ui/SKILL.md)
+
 滚动、动态、动效。
 
 本目录只收录已有材料。原则、链接 / 参考、正例与反例仍为空，不预写。

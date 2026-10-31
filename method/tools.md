@@ -27,3 +27,21 @@
 - 什么时候用：非专业的人要为界面某一处选组件或动效时。
 - 什么时候不用：它没有高保真样子，不要把它当成组件库或原型。
 - 怎么用：读 ui/interaction-skill，不要安装、不要把产品改成效果演示页。
+
+## B端设计系统 Skill
+
+- 名称：B端设计系统 Skill
+- 链接：https://github.com/Ludi-Herry/b-end-design-system-skill
+- 是什么：给编程代理用的 B 端后台决策 Skill。
+- 什么时候用：B 端后台：页面骨架、抽屉/确认框/独立页、操作区门禁。
+- 什么时候不用：不是组件库，不替代项目里已有的 shadcn 或 antd。
+- 怎么用：读 ui/b-end-skill。
+
+## Desktop Agent UI
+
+- 名称：Desktop Agent UI
+- 链接：https://github.com/Ludi-Herry/desktop-agent-ui
+- 是什么：桌面 Agent 界面的视觉门禁。
+- 什么时候用：做桌面 Agent 界面，要核对这组视觉门禁时。
+- 什么时候不用：不是组件库；Open Claude UI 的设计令牌留在上游。
+- 怎么用：读 ui/desktop-agent-ui。
