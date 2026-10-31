@@ -45,3 +45,30 @@
 - 什么时候用：做桌面 Agent 界面，要核对这组视觉门禁时。
 - 什么时候不用：不是组件库；Open Claude UI 的设计令牌留在上游。
 - 怎么用：读 ui/desktop-agent-ui。
+
+## Impeccable
+
+- 名称：Impeccable
+- 链接：https://github.com/pbakaus/impeccable
+- 是什么：装进编码代理的设计技能，外加一个不调用模型的检查器。
+- 什么时候用：已有网页要跑 npx impeccable detect 量对比度、字号、行长。
+- 什么时候不用：不要把它的眉题、12px、ease-out 当成 taste 的新法律。
+- 怎么用：让 Agent 读上游仓库，对已有网页跑 `npx impeccable detect`。不要把规则抄进 taste。
+
+## Hallmark
+
+- 名称：Hallmark
+- 链接：https://github.com/Nutlope/hallmark
+- 是什么：装进编程代理的网页设计技能。先过 Floor，再做一整页。
+- 什么时候用：新的一整页。说出 custom 才是从零；不说就发一套主题。
+- 什么时候不用：已有设计要改，必须点名 redesign 或 audit。主题、脚本和站点不在 taste 里。
+- 怎么用：读 ui/hallmark。Codex 能跑，但不是更完整的检查环。
+
+## Landing page
+
+- 名称：Landing page
+- 链接：https://github.com/elayadesign/ai-design-skills
+- 是什么：落地页怎么说、首屏放什么、什么不许编。
+- 什么时候用：落地页，不是全部界面。
+- 什么时候不用：不要把它的字体表、680px、500ms、三十档字号，或「仪表盘也照做」收成 taste 的规则。
+- 怎么用：读 ui/landing-page。
