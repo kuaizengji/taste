@@ -14,6 +14,7 @@
 | [`vi/`](vi/) | icon、logo、识别 |
 | [`slides/`](slides/) | 幻灯片模板与原则 |
 | [`posters/`](posters/) | 海报模板与原则 |
+| [`figures/`](figures/) | 文章正文配图 |
 | [`video/`](video/) | 视频节奏与模板 |
 | [`method/`](method/) | 跨表面方法。目前只有占位 |
 | [`inbox/`](inbox/) | 未归类原始材料 |

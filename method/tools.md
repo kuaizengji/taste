@@ -168,5 +168,41 @@
 - 什么时候不用：有故事、点名画风的代码短片看 [video/lemo-opuscar.md](../video/lemo-opuscar.md)。不要自己搭截帧管线，也不要把 kit 抄进 taste。
 - 怎么用：读上游 SKILL.md，跑 kit。判断在 [video/beat-promo-director.md](../video/beat-promo-director.md)。
 
+## 橙线插画
+
+- 名称：橙线插画
+- 链接：https://github.com/orange2ai/orange-line-illustration
+- 是什么：细黑线的文章概念配图。人小，物大，一处暖橙。默认角色是小橙、线人、线猫。
+- 什么时候用：用户点名橙线或这套人小物大的编辑插图，并去上游读整份规范时。
+- 什么时候不用：不要把规范抄进 taste。双许可只把复制和再分发给个人非商用，以及源码本身是 OSI 或 CC 的公开项目。本仓库根目录没有 OSI 许可证。三个角色的身体规格不收成这里的法律。不管界面、图标、视频。
+- 怎么用：让 Agent 读上游仓库。不把正文抄进 taste。
+
+## Restrained hand-drawn
+
+- 名称：Restrained hand-drawn
+- 链接：https://github.com/YuuZhen/restrained-hand-drawn-illustration
+- 是什么：把照片或短提示收成小幅炭笔开放轮廓小品。
+- 什么时候用：要这种小幅小品，并去上游读规则时。
+- 什么时候不用：文章正文配图和编辑大图不归这里，也不进 [figures/](../figures/)。仓库没有许可证，不要把炭笔条文抄进 taste。
+- 怎么用：读上游仓库。不把规则抄进 taste。
+
+## hand-drawn-styles
+
+- 名称：hand-drawn-styles
+- 链接：https://github.com/threerocks/hand-drawn-styles
+- 是什么：手绘生图提示词生成器。按画风编号从整包里抽出提示词。
+- 什么时候用：整包已经安装，用户点名其中一套编号，要按上游协议出图时。
+- 什么时候不用：许可是 MIT，但技能说明要求安装整个 skill，并禁止在业务项目里再维护一套线条、五官或色板。不要把配方抄进 [figures/](../figures/) 或任何第二份画风真源。xkcd、吉卜力和其他具名配方留在上游。编号 3.1、19、20、22 缺锚点图就停止，不要改成纯文字凑合。
+- 怎么用：安装上游整包，按编号调用。不把配方抄进 taste。
+
+## Punk IP
+
+- 名称：Punk IP
+- 链接：https://github.com/adrianpunk/Punk-IP
+- 是什么：用人物照片做成个人 IP，再按已确认角色的画风给文章画小剧场。旧地址 punk-ip-illustrations 会跳到这里。
+- 什么时候用：个人、非商用，要走上游这套先确认角色、再配图的流程时。
+- 什么时候不用：不要把构图规则或提示词抄进 taste。个人使用许可只允许分享官方仓库链接，禁止把作品提供给别人。商业使用要另签并付费。内置角色的素材不在这里再分发。
+- 怎么用：打开上游仓库。只留这个链接。
+
 
 
