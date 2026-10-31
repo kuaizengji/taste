@@ -139,5 +139,24 @@
 - 什么时候不用：界面已经有门禁时，以那些文件为准。不覆盖落地页、Hallmark、B 端、桌面 Agent、图标选型、龙海。文中工具对照和 263 个站不抄进来。
 - 清单：[ui/prompt-sources/pennw-five-elements.md](../ui/prompt-sources/pennw-five-elements.md)
 
+## Lemo-Opuscar
+
+- 名称：Lemo-Opuscar
+- 链接：https://github.com/lemomo-ai/lemo-opuscar
+- 图鉴：https://lemomo-ai.github.io/lemo-opuscar/
+- 是什么：Claude Code 技能，外加 66 种用代码做的短片风格。画面逐帧渲染，不用视频模型。
+- 什么时候用：点名一种画风，要用它的管线做代码短片时。
+- 什么时候不用：要的是已经写下的节奏和镜头时，读 [video/lemo-opuscar.md](../video/lemo-opuscar.md)。不要把风格提示词或渲染代码抄进 taste，也不要把画风清单当成所有视频的法律。普通剪辑、转码不用。风格按 Claude Opus 5.5 调校。
+- 怎么用：装上游 skill 或读那个仓库。不把代码抄进 taste。
+
+## beat-promo-director
+
+- 名称：beat-promo-director
+- 链接：https://github.com/kuaizengji/beat-promo-director
+- 是什么：把分镜做成 10–40 秒、音乐卡点、大字排版的宣传片。渲染、配乐和抽帧在上游 kit 里。
+- 什么时候用：做这种卡点大字宣传片，并要用它的 kit 出片时。
+- 什么时候不用：有故事、点名画风的代码短片看 [video/lemo-opuscar.md](../video/lemo-opuscar.md)。不要自己搭截帧管线，也不要把 kit 抄进 taste。
+- 怎么用：读上游 SKILL.md，跑 kit。判断在 [video/beat-promo-director.md](../video/beat-promo-director.md)。
+
 
 
