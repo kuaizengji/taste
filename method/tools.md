@@ -103,3 +103,13 @@
 - 使用范畴：说不清想要的效果时，拿具体站点给 AI 看。不代替 taste 已有的判断。
 - 清单：[ui/prompt-sources/everettfish-vibe-sites.md](../ui/prompt-sources/everettfish-vibe-sites.md)
 
+## 给 Vibe Coding 小白的前端效果词典
+
+- 名称：给 Vibe Coding 小白的前端效果词典
+- 链接：https://mp.weixin.qq.com/s/ojAQxVHYIsANwh61zyOOgw
+- 作者：EverettFish
+- 用途：查 UI 元素的专有名词。
+- 清单：[ui/prompt-sources/everettfish-effect-glossary.md](../ui/prompt-sources/everettfish-effect-glossary.md)
+- 什么时候不用：要执行已有门禁时，以那些文件为准。
+
+

@@ -26,6 +26,8 @@ Hallmark：[hallmark/SKILL.md](hallmark/SKILL.md)
 
 [prompt-sources/everettfish-vibe-sites.md](prompt-sources/everettfish-vibe-sites.md)
 
+[prompt-sources/everettfish-effect-glossary.md](prompt-sources/everettfish-effect-glossary.md)
+
 ## 链接 / 参考
 
 待收录。
