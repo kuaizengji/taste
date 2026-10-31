@@ -92,7 +92,7 @@
 - 什么时候不用：要的是 taste 已有的门禁或另一套组件时。
 - 怎么用：按上游文档 pnpm add @lobehub/ui。不把代码抄进 taste。
 
-界面图标选用见 [vi/icons.md](../vi/icons.md)。一个产品只用一套。
+界面图标从库里选型见 [vi/icons.md](../vi/icons.md)。一个产品只用一套。按品牌调性自建一套见 [vi/oil-icon.md](../vi/oil-icon.md)。
 
 ## 存 25 个 Vibe Coding 的参考网站
 
@@ -203,6 +203,16 @@
 - 什么时候用：个人、非商用，要走上游这套先确认角色、再配图的流程时。
 - 什么时候不用：不要把构图规则或提示词抄进 taste。个人使用许可只允许分享官方仓库链接，禁止把作品提供给别人。商业使用要另签并付费。内置角色的素材不在这里再分发。
 - 怎么用：打开上游仓库。只留这个链接。
+
+## oil-icon
+
+- 名称：oil-icon
+- 链接：https://github.com/oil-oil/oil-icon
+- 作者：oil-oil
+- 是什么：按一套构造生成风格统一的图标，交付透明 PNG。不是从现成图标库里选型。
+- 什么时候用：要按品牌调性自建一套，用于功能、分类、营销卡片、空状态或品牌化插图时。
+- 什么时候不用：16–24px 的按钮和密集功能界面，从现成库选型，走 [vi/icons.md](../vi/icons.md)。不把脚本、预设和示例图抄进 taste。
+- 怎么用：判断读 [vi/oil-icon.md](../vi/oil-icon.md)。要生成，让 Agent 读上游仓库。安装入口是 `npx skills add oil-oil/oil-icon`。
 
 
 

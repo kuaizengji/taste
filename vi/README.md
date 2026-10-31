@@ -18,6 +18,8 @@ icon、logo、识别。
 
 [icons.md](icons.md)
 
+[oil-icon.md](oil-icon.md)
+
 ## 正例与反例
 
 待收录。
