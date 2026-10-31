@@ -93,3 +93,13 @@
 - 怎么用：按上游文档 pnpm add @lobehub/ui。不把代码抄进 taste。
 
 界面图标选用见 [vi/icons.md](../vi/icons.md)。一个产品只用一套。
+
+## 存 25 个 Vibe Coding 的参考网站
+
+- 名称：存 25 个 Vibe Coding 的参考网站
+- 链接：https://mp.weixin.qq.com/s/sL2pLGaGCn52KZNMT3IpNg
+- 作者：EverettFish
+- 是什么：前端案例和组件库的收藏清单。
+- 使用范畴：说不清想要的效果时，拿具体站点给 AI 看。不代替 taste 已有的判断。
+- 清单：[ui/prompt-sources/everettfish-vibe-sites.md](../ui/prompt-sources/everettfish-vibe-sites.md)
+

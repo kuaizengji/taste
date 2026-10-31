@@ -24,6 +24,8 @@ Hallmark：[hallmark/SKILL.md](hallmark/SKILL.md)
 
 [prompt-sources/zayn-hao.md](prompt-sources/zayn-hao.md)
 
+[prompt-sources/everettfish-vibe-sites.md](prompt-sources/everettfish-vibe-sites.md)
+
 ## 链接 / 参考
 
 待收录。
