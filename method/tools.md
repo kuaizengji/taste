@@ -82,4 +82,14 @@
 - 什么时候不用：要的是 taste 里已经写下的判断时，不要用灵感站代替规则。
 - 怎么用：打开链接。不把页面抄进 taste。
 
+## Lobe UI
+
+- 名称：Lobe UI
+- 链接：https://ui.lobehub.com/
+- 仓库：https://github.com/lobehub/lobe-ui
+- 是什么：npm 包 @lobehub/ui，LobeHub 的 React 组件库，建在 Base UI 上。
+- 使用范畴：C 端 AI 网页。对话（流式消息、输入区）和他们那套落地页。整套安装，不把零件拆去配另一套设计系统。不管桌面 Agent、B 端后台、图标选型。
+- 什么时候不用：要的是 taste 已有的门禁或另一套组件时。
+- 怎么用：按上游文档 pnpm add @lobehub/ui。不把代码抄进 taste。
+
 界面图标选用见 [vi/icons.md](../vi/icons.md)。一个产品只用一套。
