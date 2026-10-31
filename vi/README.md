@@ -12,6 +12,8 @@ icon、logo、识别。
 
 [gaobaitian-photo-to-logo.md](gaobaitian-photo-to-logo.md)
 
+[s1dashu-ip-as-logo.md](s1dashu-ip-as-logo.md)
+
 ## 链接 / 参考
 
 [icons.md](icons.md)

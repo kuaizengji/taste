@@ -129,6 +129,16 @@
 - 什么时候不用：选界面图标时看 [vi/icons.md](../vi/icons.md)。不把原文案例图，或星巴克、肯德基、阿童木当成本仓库的参考资产。
 - 怎么用：读 [vi/gaobaitian-photo-to-logo.md](../vi/gaobaitian-photo-to-logo.md)。
 
+## IP as Logo
+
+- 名称：IP as Logo
+- 链接：https://github.com/s1dashu/ip-as-logo-skill
+- 作者：s1dashu
+- 是什么：没有主体照片时，把产品收成极简圆润吉祥物的判断。
+- 什么时候用：要一枚极简圆润的吉祥物识别图，且没有主体照片时。
+- 什么时候不用：选界面图标时看 [vi/icons.md](../vi/icons.md)。已有主体照片要收成标志时看 [vi/gaobaitian-photo-to-logo.md](../vi/gaobaitian-photo-to-logo.md)。左下探出、三色、婴儿感只约束这份吉祥物。
+- 怎么用：读 [vi/s1dashu-ip-as-logo.md](../vi/s1dashu-ip-as-logo.md)。
+
 ## AI 做设计总像模板？因为你少写了这 5 样
 
 - 名称：AI 做设计总像模板？因为你少写了这 5 样
