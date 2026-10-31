@@ -30,6 +30,8 @@ Hallmark：[hallmark/SKILL.md](hallmark/SKILL.md)
 
 [prompt-sources/longhai-refactoring-ui/](prompt-sources/longhai-refactoring-ui/)
 
+[prompt-sources/pennw-five-elements.md](prompt-sources/pennw-five-elements.md)
+
 ## 链接 / 参考
 
 待收录。

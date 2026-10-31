@@ -2,7 +2,7 @@
 
 icon、logo、识别。
 
-本目录只收录已有材料。原则、提示词、正例与反例仍为空，不预写。
+本目录只收录已有材料。原则、正例与反例仍为空，不预写。
 
 ## 原则
 
@@ -10,7 +10,7 @@ icon、logo、识别。
 
 ## 提示词
 
-待收录。
+[gaobaitian-photo-to-logo.md](gaobaitian-photo-to-logo.md)
 
 ## 链接 / 参考
 

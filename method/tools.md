@@ -119,5 +119,25 @@
 - 作者：龙海
 - 清单：[ui/prompt-sources/longhai-refactoring-ui/](../ui/prompt-sources/longhai-refactoring-ui/)
 
+## 用 AI，把照片秒变 LOGO
+
+- 名称：用 AI，把照片秒变 LOGO
+- 链接：https://mp.weixin.qq.com/s/Bo6adIxMnRResGHkQKIeEw
+- 作者：告白天
+- 是什么：把一张主体照片收成品牌标志的提示词，外加四条不能直接用的照片。
+- 什么时候用：要从人物、动物、植物或建筑的照片做出品牌标志时。
+- 什么时候不用：选界面图标时看 [vi/icons.md](../vi/icons.md)。不把原文案例图，或星巴克、肯德基、阿童木当成本仓库的参考资产。
+- 怎么用：读 [vi/gaobaitian-photo-to-logo.md](../vi/gaobaitian-photo-to-logo.md)。
+
+## AI 做设计总像模板？因为你少写了这 5 样
+
+- 名称：AI 做设计总像模板？因为你少写了这 5 样
+- 链接：https://mp.weixin.qq.com/s/J7MhBhzAMIF_WPEWFoIEEw
+- 作者：PennW
+- 是什么：让 AI 出界面初稿时，第一句话要写清的五要素，以及生成后改细节还是重来。
+- 什么时候用：开口要一版界面初稿，或生成完要决定修还是重来时。
+- 什么时候不用：界面已经有门禁时，以那些文件为准。不覆盖落地页、Hallmark、B 端、桌面 Agent、图标选型、龙海。文中工具对照和 263 个站不抄进来。
+- 清单：[ui/prompt-sources/pennw-five-elements.md](../ui/prompt-sources/pennw-five-elements.md)
+
 
 
