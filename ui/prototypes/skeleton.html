@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skeleton｜骨架屏</title>
+  <link rel="stylesheet" href="base.css">
+  <style>
+    .list { padding: 8px 8px 12px; }
+    .list h2 {
+      margin: 0;
+      padding: 16px 16px 4px;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .row {
+      display: grid;
+      grid-template-columns: 48px 1fr;
+      gap: 14px;
+      align-items: center;
+      padding: 14px 16px;
+    }
+    .cover {
+      width: 48px;
+      height: 64px;
+      border-radius: 4px;
+      background: var(--bone-strong);
+    }
+    .lines { display: grid; gap: 8px; }
+    .bone {
+      height: 10px;
+      border-radius: 4px;
+      background: var(--bone);
+    }
+    .bone.title { height: 14px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="name">Skeleton｜骨架屏</h1>
+    <p class="when">列表、卡片或详情的布局可以提前确定时，用它占住真实内容的位置。</p>
+    <div class="stage">
+      <section class="surface list" aria-busy="true" aria-label="书架">
+        <h2>书架</h2>
+        <p class="sr">正在加载书单</p>
+        <div class="row" aria-hidden="true">
+          <div class="cover"></div>
+          <div class="lines">
+            <div class="bone title" style="width: 42%"></div>
+            <div class="bone" style="width: 76%"></div>
+            <div class="bone" style="width: 34%"></div>
+          </div>
+        </div>
+        <div class="row" aria-hidden="true">
+          <div class="cover"></div>
+          <div class="lines">
+            <div class="bone title" style="width: 58%"></div>
+            <div class="bone" style="width: 64%"></div>
+            <div class="bone" style="width: 48%"></div>
+          </div>
+        </div>
+        <div class="row" aria-hidden="true">
+          <div class="cover"></div>
+          <div class="lines">
+            <div class="bone title" style="width: 36%"></div>
+            <div class="bone" style="width: 80%"></div>
+            <div class="bone" style="width: 28%"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

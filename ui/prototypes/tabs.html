@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tabs｜标签页</title>
+  <link rel="stylesheet" href="base.css">
+  <style>
+    .panel { padding: 8px 12px 20px; }
+    [role="tablist"] {
+      display: flex;
+      gap: 4px;
+      border-bottom: 1px solid var(--line);
+      padding: 0 12px;
+    }
+    [role="tab"] {
+      appearance: none;
+      height: 44px;
+      padding: 0 12px;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font-weight: 500;
+      cursor: pointer;
+      box-shadow: inset 0 -2px 0 transparent;
+    }
+    [role="tab"][aria-selected="true"] {
+      color: var(--ink);
+      font-weight: 600;
+      box-shadow: inset 0 -2px 0 var(--ink);
+    }
+    [role="tabpanel"] { padding: 8px 16px 4px; }
+    .row {
+      display: grid;
+      grid-template-columns: 72px 1fr auto;
+      gap: 16px;
+      align-items: baseline;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .row:last-child { border-bottom: 0; }
+    .row strong { font-weight: 600; }
+    .row span { color: var(--muted); }
+    .page-no { color: var(--muted); font-size: 13px; }
+    .note {
+      margin: 0;
+      padding: 16px 4px 8px;
+      color: var(--ink);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="name">Tabs｜标签页</h1>
+    <p class="when">用来切换同一上下文里并列的几块内容。</p>
+    <div class="stage">
+      <div class="surface panel">
+        <div role="tablist" aria-label="城南旧事">
+          <button role="tab" type="button" id="tab-toc" aria-controls="panel-toc" aria-selected="true" tabindex="0">目录</button>
+          <button role="tab" type="button" id="tab-notes" aria-controls="panel-notes" aria-selected="false" tabindex="-1">批注</button>
+          <button role="tab" type="button" id="tab-cites" aria-controls="panel-cites" aria-selected="false" tabindex="-1">引用</button>
+        </div>
+        <div role="tabpanel" id="panel-toc" aria-labelledby="tab-toc">
+          <div class="row"><strong>城门</strong><span>入冬之前，门还是关的。</span><span class="page-no num">12</span></div>
+          <div class="row"><strong>灯市</strong><span>灯比人先到。</span><span class="page-no num">28</span></div>
+          <div class="row"><strong>回声</strong><span>出了城门就淡了。</span><span class="page-no num">41</span></div>
+        </div>
+        <div role="tabpanel" id="panel-notes" aria-labelledby="tab-notes" hidden>
+          <p class="note">灯市那一句太满，可以只留「灯比人先到」。</p>
+        </div>
+        <div role="tabpanel" id="panel-cites" aria-labelledby="tab-cites" hidden>
+          <p class="note">城门的说法来自旧县志卷二，页码还没核对。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var tabs = Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
+      var panels = Array.prototype.slice.call(document.querySelectorAll('[role="tabpanel"]'));
+
+      function select(index) {
+        tabs.forEach(function (tab, i) {
+          var on = i === index;
+          tab.setAttribute("aria-selected", on ? "true" : "false");
+          tab.tabIndex = on ? 0 : -1;
+          panels[i].hidden = !on;
+        });
+        tabs[index].focus();
+      }
+
+      tabs.forEach(function (tab, i) {
+        tab.addEventListener("click", function () {
+          select(i);
+        });
+        tab.addEventListener("keydown", function (event) {
+          var next = i;
+          if (event.key === "ArrowRight") next = (i + 1) % tabs.length;
+          else if (event.key === "ArrowLeft") next = (i + tabs.length - 1) % tabs.length;
+          else if (event.key === "Home") next = 0;
+          else if (event.key === "End") next = tabs.length - 1;
+          else return;
+          event.preventDefault();
+          select(next);
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

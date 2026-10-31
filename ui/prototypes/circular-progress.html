@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Circular Progress｜环形进度</title>
+  <link rel="stylesheet" href="base.css">
+  <style>
+    .stage { display: flex; justify-content: center; }
+    .card {
+      width: min(300px, 100%);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 18px;
+    }
+    .ring {
+      position: relative;
+      width: 88px;
+      height: 88px;
+      flex: none;
+    }
+    .ring svg { display: block; }
+    .ring-num {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .card h2 {
+      margin: 0;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+    .card p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="name">Circular Progress｜环形进度</h1>
+    <p class="when">用在紧凑的地方，展示已经能够确定的任务进度。</p>
+    <div class="stage">
+      <article
+        class="surface card"
+        role="progressbar"
+        aria-valuenow="64"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        aria-valuetext="已下载 32 张，共 50 张"
+        aria-label="下载进度"
+      >
+        <div class="ring">
+          <svg width="88" height="88" viewBox="0 0 88 88" aria-hidden="true">
+            <circle cx="44" cy="44" r="34" fill="none" stroke="#e7e1d8" stroke-width="7"/>
+            <circle
+              cx="44"
+              cy="44"
+              r="34"
+              fill="none"
+              stroke="#1e5c44"
+              stroke-width="7"
+              stroke-linecap="round"
+              stroke-dasharray="213.628"
+              stroke-dashoffset="76.906"
+              transform="rotate(-90 44 44)"
+            />
+          </svg>
+          <span class="ring-num num">64%</span>
+        </div>
+        <div>
+          <h2>正在下载插图</h2>
+          <p class="num">32 / 50 张</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</body>
+</html>

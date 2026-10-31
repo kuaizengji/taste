@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modal｜模态对话框</title>
+  <link rel="stylesheet" href="base.css">
+  <style>
+    .scene {
+      position: relative;
+      min-height: 480px;
+      overflow: hidden;
+    }
+    .behind {
+      padding: 32px;
+    }
+    .behind .kicker {
+      margin: 0 0 6px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .behind h2 {
+      margin: 0;
+      font-size: 26px;
+      font-weight: 600;
+    }
+    .behind p {
+      margin: 16px 0 0;
+      max-width: 36em;
+    }
+    .scrim {
+      position: absolute;
+      inset: 0;
+      background: rgba(29, 26, 22, 0.46);
+    }
+    .dialog {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: min(420px, calc(100% - 48px));
+      padding: 22px 22px 18px;
+      border-radius: 16px;
+      background: var(--sheet);
+      box-shadow: 0 24px 60px rgba(28, 25, 23, 0.28);
+    }
+    .dialog h2 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.35;
+    }
+    .dialog p {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="name">Modal｜模态对话框</h1>
+    <p class="when">必须先完成确认，或先处理一件独立的事，才用它把焦点收进框里并挡住背景。</p>
+    <div class="stage">
+      <div class="surface scene">
+        <div class="behind" aria-hidden="true">
+          <p class="kicker">笔记本</p>
+          <h2>城南旧事</h2>
+          <p>灯市那一段还要再收一收。出了城门，声音就淡了。</p>
+        </div>
+        <div class="scrim"></div>
+        <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="delete-title">
+          <h2 id="delete-title">删除这本笔记本？</h2>
+          <p>其中 12 篇笔记会一起删掉，而且不能撤销。</p>
+          <div class="actions">
+            <button class="btn btn-quiet is-focused" type="button">取消</button>
+            <button class="btn btn-danger" type="button">删除</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

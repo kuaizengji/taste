@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Progress Bar｜线形进度</title>
+  <link rel="stylesheet" href="base.css">
+  <style>
+    .stage { display: flex; justify-content: center; }
+    .upload {
+      width: min(440px, 100%);
+      padding: 22px 22px 18px;
+    }
+    .upload h2 {
+      margin: 0;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .file {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .track {
+      margin-top: 16px;
+      height: 8px;
+      border-radius: 99px;
+      background: #e7e1d8;
+      overflow: hidden;
+    }
+    .fill {
+      display: block;
+      height: 100%;
+      width: 64%;
+      background: var(--pine);
+      border-radius: inherit;
+    }
+    .meta {
+      display: flex;
+      justify-content: space-between;
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .upload .btn { margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="name">Progress Bar｜线形进度</h1>
+    <p class="when">上传、下载或可以测量的步骤已经有可靠进度时，用这条线表示完成了多少。</p>
+    <div class="stage">
+      <article class="surface upload">
+        <h2>正在上传</h2>
+        <p class="file">南城手记.pdf</p>
+        <div
+          class="track"
+          role="progressbar"
+          aria-valuenow="64"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuetext="已上传 32 MB，共 50 MB"
+          aria-label="上传进度"
+        >
+          <span class="fill"></span>
+        </div>
+        <p class="meta">
+          <span class="num">32 MB / 50 MB</span>
+          <span class="num">64%</span>
+        </p>
+        <button class="btn btn-quiet" type="button">取消</button>
+      </article>
+    </div>
+  </div>
+</body>
+</html>
