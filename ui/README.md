@@ -18,6 +18,8 @@ B 端后台：[b-end-skill/SKILL.md](b-end-skill/SKILL.md)
 
 [prompts.md](prompts.md)
 
+[prompt-sources/zayn-hao.md](prompt-sources/zayn-hao.md)
+
 ## 链接 / 参考
 
 待收录。
