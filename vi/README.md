@@ -37,3 +37,5 @@ icon、logo、识别。
 [logo/BV18Gnb6JEbr/](logo/BV18Gnb6JEbr/)
 
 [logo/BV1VEn26uEt5/](logo/BV1VEn26uEt5/)
+
+[logo/BV1Aqnv6tEZV/](logo/BV1Aqnv6tEZV/)
