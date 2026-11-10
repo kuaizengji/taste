@@ -65,3 +65,5 @@ icon、logo、识别。
 [logo/BV1UYhx6eEB3/](logo/BV1UYhx6eEB3/)
 
 [logo/BV15chi6TEp7/](logo/BV15chi6TEp7/)
+
+[logo/BV18oem6uEw4/](logo/BV18oem6uEw4/)
