@@ -33,3 +33,5 @@ icon、logo、识别。
 [logo/BV1BCn96NET1/](logo/BV1BCn96NET1/)
 
 [logo/BV1D1xv6SE27/](logo/BV1D1xv6SE27/)
+
+[logo/BV18Gnb6JEbr/](logo/BV18Gnb6JEbr/)
