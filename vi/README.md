@@ -25,3 +25,5 @@ icon、logo、识别。
 [logo/BV1qsxh6mEtm/](logo/BV1qsxh6mEtm/)
 
 [logo/BV1qpWt6eEGn/](logo/BV1qpWt6eEGn/)
+
+[logo/BV1124q6SEQw/](logo/BV1124q6SEQw/)
