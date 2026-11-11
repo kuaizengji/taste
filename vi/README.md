@@ -71,3 +71,5 @@ icon、logo、识别。
 [logo/BV1Psew6eEcM/](logo/BV1Psew6eEcM/)
 
 [logo/BV1yhYC62EuK/](logo/BV1yhYC62EuK/)
+
+[logo/BV1x6Y76yEay/](logo/BV1x6Y76yEay/)
